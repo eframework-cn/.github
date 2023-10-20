@@ -23,7 +23,7 @@ jobs:
           
             ## 暂存文档
             - run: mkdir ./swap
-            - run: cp -r ./profile ./swap
+            - run: cp -r ./profile/** ./swap
             - run: git add ./swap
             - run: git stash save ./swap
 
