@@ -1,2 +1,0 @@
-# .github
-EFramework's homepage.
