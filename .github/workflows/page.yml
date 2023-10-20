@@ -37,9 +37,9 @@ jobs:
 
             ## 弹出文档
             - run: git stash pop
-            - run: git commit -m '[Generate Page] commit temporary'
-            - run: mv ./temp/* ./
-            - run: git rm -rf ./temp
+            - run: git commit -m '[Generate Page] commit swap'
+            - run: mv ./swap/* ./
+            - run: git rm -rf ./swap
             
             ## 创建文件（使得页面文件包含'_'的可以被访问）
             - run: touch .nojekyll
